@@ -117,3 +117,30 @@
   left: 20%;
   transform: translate(0,-50%);
 }
+/* fine header */
+/* inizio main */
+.main{
+  width: 100vw;
+  margin-left: -8px;
+  position: relative;
+}
+.topmain{
+  width: 100%;
+  height: 200px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.topmain h3{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.topmain span{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #999;
+}
