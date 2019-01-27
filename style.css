@@ -144,3 +144,46 @@
   transform: translate(-50%,-50%);
   color: #999;
 }
+
+.section{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  /* border: 1px solid black; */
+  position: relative;
+}
+.box{
+  width: 20%;
+  height: 80%;
+  /* border: 1px solid black; */
+  margin-top: 2%;
+  margin-left: 5%;
+  position: relative;
+
+  }
+
+  .one{
+    float: left;
+    margin-left: 15%;
+    text-align: center;
+
+  }
+
+.two{
+  float: left;
+}
+
+.three{
+  float: left;
+}
+.box > img{
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  transform:translate(-50%);
+}
+.box > .text{
+  position: absolute;
+  bottom: 0;
+}
