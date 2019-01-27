@@ -1,0 +1,20 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  width: 100vw;
+  height: 10vh;
+  background-color: #0D325A;
+  margin-left: -8px;
+  position: relative;
+
+
+}
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
