@@ -1,7 +1,7 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
-
+/* inizio navbar */
 .navbar{
   width: 100vw;
   height: 10vh;
@@ -65,7 +65,8 @@
   transform: translate(-50%,-50%);
 }
 
-.plan{
+
+.planlog{
   width: 250px;
   height: 30px;
   border-radius: 5px;
@@ -74,8 +75,6 @@
   top: 50%;
   right: 7%;
   transform: translate(-50%,-50%);
-
-
 }
 
 .plan > span{
@@ -85,7 +84,36 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+ /* fine navbar */
 
 
+ /* inizio header */
+ .header{
+   width: 100vw;
+   height: 40vh;
+   background-color: #0D325A;
+   margin-left: -8px;
+   position: relative;
+ }
 
+.header > h1{
+  font-size: 45px;
+  width: 800px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(0,-50%);
+}
+
+.planhead{
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #7fb802;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(0,-50%);
 }
