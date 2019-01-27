@@ -17,4 +17,75 @@
   top: 50%;
   left: 20%;
   transform: translate(-50%, -50%);
+  float: left;
+}
+
+.menuoption{
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%,-50%);
+
+}
+
+.menuoption .option{
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.option:hover{
+  color: orange;
+}
+
+.log > span{
+  color: grey;
+  position: absolute;
+  top: 50%;
+  right: 29%;
+  transform: translate(-50%,-50%);
+}
+ .log .login{
+   width: 80px;
+   height: 30px;
+   border: 1px solid lightblue;
+   border-radius: 5px;
+   position: absolute;
+   top: 50%;
+   right: 25%;
+   transform: translate(-50%,-50%);
+ }
+
+ .login > span{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.plan{
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #7fb802;
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+.plan > span{
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+
 }
