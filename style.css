@@ -160,6 +160,7 @@
   margin-top: 2%;
   margin-left: 5%;
   position: relative;
+  text-align: center;
 
   }
 
@@ -177,13 +178,16 @@
 .three{
   float: left;
 }
-.box > img{
-  width: 40%;
+.box > .img{
+  width: 150px;
+  height: 150px;
   position: absolute;
   left: 50%;
   transform:translate(-50%);
 }
 .box > .text{
+  width: 100%;
+  height: 50%;
   position: absolute;
   bottom: 0;
 }
